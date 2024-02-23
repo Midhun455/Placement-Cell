@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HireMe</string>
+    <string name="title_activity_officer">Officer</string>
+    <string name="title_activity_student">Student</string>
+
+    <string-array name="array_month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="array_dept">
+        <item>BCA</item>
+        <item>Bsc.CS</item>
+        <item>BBA</item>
+        <item>Bcom</item>
+        <item>MCA</item>
+        <item>MBA</item>
+        <item>Mcom</item>
+        <item>Msc.CS</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_out_side_student_home">OutSideStudentHome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

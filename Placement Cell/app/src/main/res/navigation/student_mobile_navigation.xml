@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/view_placements">
+
+    <fragment
+        android:id="@+id/nav_view_events_student"
+        android:name="com.example.placementcell.STUDENT.student_nav_menus.ViewEvents"
+        android:label="View Events"
+        tools:layout="@layout/student_view_events" />
+
+    <fragment
+        android:id="@+id/view_placements"
+        android:name="com.example.placementcell.PLACEMENT_OFFICER.officer_nav_menus.ViewPlacements"
+        android:label="View Placements"
+        tools:layout="@layout/fragment_view_placements" />
+
+</navigation>

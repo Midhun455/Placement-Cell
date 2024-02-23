@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/view_students">
+
+    <fragment
+        android:id="@+id/view_students"
+        android:name="com.example.placementcell.PLACEMENT_OFFICER.officer_nav_menus.ViewStudents"
+        android:label="View Students"
+        tools:layout="@layout/fragment_view_students" />
+
+    <fragment
+        android:id="@+id/nav_home_officer"
+        android:name="com.example.placementcell.PLACEMENT_OFFICER.officer_nav_menus.AddPlacementNotifications"
+        android:label="Add Placement"
+        tools:layout="@layout/officer_add_placement" />
+    <fragment
+        android:id="@+id/nav_view_events_officer"
+        android:name="com.example.placementcell.PLACEMENT_OFFICER.officer_nav_menus.ViewEventNotifications"
+        android:label="Events"
+        tools:layout="@layout/officer_view_events" />
+    <fragment
+        android:id="@+id/add_events"
+        android:name="com.example.placementcell.PLACEMENT_OFFICER.officer_nav_menus.AddEvents"
+        android:label="Add Events"
+        tools:layout="@layout/fragment_add_events" />
+    <fragment
+        android:id="@+id/nav_view_Viewexam"
+        android:name="com.example.placementcell.PLACEMENT_OFFICER.officer_nav_menus.ViewResults"
+        android:label="View Exams Results"
+        tools:layout="@layout/fragment_view_results2" />
+    <fragment
+        android:id="@+id/view_placements"
+        android:name="com.example.placementcell.PLACEMENT_OFFICER.officer_nav_menus.ViewPlacements"
+        android:label="View Placements"
+        tools:layout="@layout/fragment_view_placements" />
+
+</navigation>

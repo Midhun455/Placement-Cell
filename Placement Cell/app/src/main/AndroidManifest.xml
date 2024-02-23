@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.placementcell">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PlacementCell"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".COMMON.GetResultView"
+            android:exported="false" />
+        <activity
+            android:name=".OutSideStudents.ViewEventsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OutSideStudents.OutSideHome"
+            android:exported="false" />
+        <activity
+            android:name=".STUDENT.SuccessPage"
+            android:exported="false" />
+        <activity
+            android:name=".STUDENT.CodingTest"
+            android:exported="false" />
+        <activity
+            android:name=".STUDENT.TechnicalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".STUDENT.NumericalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".STUDENT.TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentExternalRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".StudentCommonRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PLACEMENT_OFFICER.Officer"
+            android:label="@string/title_activity_officer"
+            android:theme="@style/Theme.PlacementCell" />
+        <activity
+            android:name=".PLACEMENT_OFFICER.OfficerRegistration"
+            android:label="@string/title_activity_officer"
+            android:theme="@style/Theme.PlacementCell" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".STUDENT.Student"
+            android:label="@string/title_activity_student"
+            android:theme="@style/Theme.PlacementCell" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PlacementCell">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

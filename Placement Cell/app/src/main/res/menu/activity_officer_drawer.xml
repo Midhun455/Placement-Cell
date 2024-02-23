@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/view_students"
+            android:icon="@drawable/student"
+            android:title="View Students" />
+        <item
+            android:id="@+id/nav_home_officer"
+            android:icon="@drawable/addplace"
+            android:title="Add Placement" />
+
+        <item
+            android:id="@+id/view_placements"
+            android:icon="@drawable/recruitment"
+            android:title="View Placement" />
+        <item
+            android:id="@+id/add_events"
+            android:icon="@drawable/events"
+            android:title="Add Events" />
+
+        <item
+            android:id="@+id/nav_view_events_officer"
+            android:icon="@drawable/events"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_view_Viewexam"
+            android:icon="@drawable/result"
+            android:title="Exam Results" />
+
+    </group>
+</menu>
